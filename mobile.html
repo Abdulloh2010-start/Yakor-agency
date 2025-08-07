@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-wrapper">
+            <img src="images/logo.svg" alt="Логотип" class="logo">
+        </div>
+        <div class="cards-wrapper">
+            <div class="cards-row">
+                <div class="card-site">
+                    <h2>Сайт</h2>
+                    <button class="open-popup" data-popup="popup-site">Подробнее</button>
+                </div>
+                <div class="card-logo">
+                    <h2>Лого</h2>
+                    <button class="open-popup" data-popup="popup-logo">Подробнее</button>
+                </div>
+            </div>
+            <div class="card-app">
+                <h2>Приложение</h2>
+                <button class="open-popup" data-popup="popup-app">Подробнее</button>
+            </div>
+        </div>
+        <div class="portfolio">
+            <h4>Портфолио</h4>
+            <div class="portfolio-item" data-popup="popup-portfolio1">
+                <img src="images/I%20AM%20OK/work1.jpg" alt="Работа 1">
+                <p class="portfolio-caption">I AM OK. Фитнесс-студия для женщин</p>
+            </div>
+            <div class="portfolio-item top-crop" data-popup="popup-portfolio2">
+                <img src="images/БОФФ/work1.jpg" alt="Работа 2">
+                <p class="portfolio-caption">БОФФ Интернет-магазин обуви и комплектующих</p>
+            </div>
+            <div class="portfolio-item" data-popup="popup-portfolio3">
+                <img src="images/ДимПоиск/work1.jpg" alt="Работа 3">
+                <p class="portfolio-caption">ДимПоиск. Карты и навигация</p>
+            </div>
+            <div class="portfolio-item hidden" data-popup="popup-portfolio4">
+                <img src="images/DERMAVI/work1.jpg" alt="Работа 4">
+                <p class="portfolio-caption">DERMAVI Интернет-магазин уходовой косметики</p>
+            </div>
+            <div class="portfolio-item hidden" data-popup="popup-portfolio5">
+                <img src="images/ДАГПЕЧАТЬ/work1.jpg" alt="Работа 5">
+                <p class="portfolio-caption">ДАГПЕЧАТЬ. Разработка логотипа и дизайна сайта</p>
+            </div>
+            <div class="portfolio-item hidden" data-popup="popup-portfolio6">
+                <img src="images/EACH%20DRINKS/work1.jpg" alt="Работа 6">
+                <p class="portfolio-caption">EACH DRINKS. Дизайн этикетки</p>
+            </div>
+            <div class="portfolio-item hidden" data-popup="popup-portfolio7">
+                <img src="images/Каспий%20Медикал/work1.jpg" alt="Работа 7">
+                <p class="portfolio-caption">Каспий Медикал. Интернет-каталог мед. оборудования</p>
+            </div>
+            <div class="portfolio-item hidden" data-popup="popup-portfolio8">
+                <img src="images/ФАРМЛАЙН/work1.jpg" alt="Работа 8">
+                <p class="portfolio-caption">ФАРМЛАЙН. Разработка логотипа и лендинга для сети аптек</p>
+            </div>
+            <div class="portfolio-item hidden" data-popup="popup-portfolio9">
+                <img src="images/ЮПИТЕР/work1.jpg" alt="Работа 9">
+                <p class="portfolio-caption">ЮПИТЕР. Разработка логотипа</p>
+            </div>
+            <button class="show-more">Показать ещё</button>
+        </div>
+        <div class="about">
+            <h4>О нас</h4>
+            <p class="about-m">Наше агентство специализируется<br>на создании современных сайтов,<br>запоминающихся логотипов и удобных<br> мобильных приложений.
+                Мы помогаем<br>бизнесу выделяться в цифровом<br>пространстве, сочетая креативный<br>дизайн и передовые технологии.<br><br>
+                Каждый проект разрабатывается<br>индивидуально с учетом<br>целей и потребностей клиента.
+                Доверьте<br>нам ваш бренд - и получите<br>качественный продукт, который<br>привлечет новых клиентов и усилит<br>ваше присутствие на рынке.
+            </p>
+            <p class="about-d">Наше агентство специализируется на создании современных сайтов, запоминающихся логотипов и удобных мобильных приложений.
+                Мы помогаем бизнесу выделяться в цифровом пространстве, сочетая креативный дизайн и передовые технологии.<br><br>
+                Каждый проект разрабатывается индивидуально с учетом целей и потребностей клиента.
+                Доверьте нам ваш бренд - и получите качественный продукт, который привлечет новых клиентов и усилит ваше присутствие на рынке.
+            </p>
+        </div>
+        <div class="contact">
+            <h4>Свяжитесь с нами</h4>
+            <a href="mailto:yacor-agency@yandex.com" class="contact-email">yacor-agency@yandex.com</a>
+        </div>
+        <div class="contact-icons">
+            <a href="https://t.me/yakor_agency" target="_blank">
+                <img src="images/telegram.svg" alt="Telegram"/>
+            </a>
+            <a href="https://vk.com/yakor_agency" target="_blank">
+                <img src="images/vk.svg" alt="VK" />
+            </a>
+            <a href="https://www.instagram.com/yakor_agency?igsh=MW43bmQwaHJzMzVk&utm_source=qr" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram" />
+            </a>
+        </div>
+        <div class="fixed-button-wrapper-mobile"></div>
+            <a href="https://t.me/yakor_contact" target="_blank" class="fixed-button-mobile">Написать в telegram</a>
+        </div>
+        <div class="message"></div>
+            <a href="https://t.me/yakor_contact" target="_blank" class="fixed-button-message">Написать в telegram</a>
+        </div>
+        <p class="warning">*Запрещённая на территории РФ организация.<br>
+        Не является публичной офертой.<br>
+        ИП Тутова Александра<br>
+        Все права защищены авторским правом.</p>
+        <div id="bottom-trigger"></div>
+        <div class="popup" id="popup-site">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                    <h1 class="site-text">Сайт</h1>
+                    <h3>Общая инормация<br><br></h3>
+                    <p>Разработаем продающий сайт, который привлечет клиентов и увеличит вашу прибыль!<br><br>
+                    Мы создаем современные, удобные и эффективные сайты под любые цели бизнеса.
+                    Каждый проект - это продуманный дизайн, интуитивный интерфейс и мощная техническая база, которая превращает посетителей в покупателей.</p>
+                    <h3>Какие сайты мы делаем?</h3>
+                    <h4>Корпоративные сайты</h4>
+                    <p>Презентация компании, повышение доверия и привлечение партнеров</p>
+                    <h4>Лендинги</h4>
+                    <p>Одностраничники с высокой конверсией для рекламных кампаний и акций.</p>
+                    <h4>Сайты-визитки</h4>
+                    <p>Лаконичное решение для быстрого старта и контактов с клиентами.</p>
+                    <h4>Сайты-каталоги</h4>
+                    <p>Удобный поиск товаров и услуг с фильтрами и онлайн-заказом.</p>
+                    <h4>Интернет-магазины</h4>
+                    <p>Удобные площадки для онлайн-продаж с интеграцией платежей и CRM.</p>
+                    <h3>Что мы предлагаем?<br><br></h3>
+                    <p>✅Индивидуальный дизайн и адаптивная верстка.<br><br>
+                    ✅SEO-оптимизация для роста в поисковых системах.<br><br>
+                    ✅Высокая скорость загрузки и безопасность данных.<br><br>
+                    ✅Техподдержка и доработки после запуска.<br><br>
+                    Хотите сайт, который действительно продает? Оставьте заявку - и получите бесплатную консультацию!</p>
+                </div>
+                <div class="fixed-button-wrapper" id="fixbtn">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn" id="fixxbtn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d-p">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup-logo">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                    <h1 class="site-text">Логотип</h1>
+                    <h3>Что мы прелагаем?</h3>
+                    <h4>Узнаваемый логотип</h4>
+                    <p>Лаконичный, цепляющий, отражающий суть бизнеса.</p>
+                    <h4>Продающий фирменный стиль</h4>
+                    <p>Цвета, шрифты, графика, которые работают на ваш имидж.</p>
+                    <h4>Профессиональный брендбук</h4>
+                    <p>Четкие правила использования айдентики, чтобы ваш бренд всегда выглядел едино и стильно.<br><br>
+                    Гарантируем: ваш бренд станет выразительным, последовательным и запоминающимся - от визитки до рекламной кампании.<br><br>
+                    Давайте создадим стиль, который будет работать на вас!</p>
+                </div>
+                <div class="fixed-button-wrapper" id="fixbtn3">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn" id="fixxbtn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d-p" id="telbtn">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup-app">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                    <h1 class="site-text">Приложение<br><br></h1>
+                    <p>Создаём мобильные приложения, которые решают задачи и приносят прибыль!</p>
+                    <h3>Что делает приложение?</h3>
+                    <h4>Привлекает пользователей</h4>
+                    <p>Продуманный интерфейс, удобный функционал и стильный дизайн.</p>
+                    <h4>Зарабатывает деньги</h4>
+                    <p>Встроенные монетизационные модели(подписки, платный контент, реклама).</p>
+                    <h4>Работает без сбоев</h4>
+                    <p>Оптимизированный код, поддержка и регулярные обновления.</p>
+                    <h3>Что мы предлагаем?<br><br></h3>
+                    <p>✔️Опытная команда - разработка под IOS, Android и кроссплатформенные решения.<br><br>
+                    ✔️Под ключ - от идеи и аналитики до публикации в магазинах приложений и маркетинга.<br><br>
+                    ✔️Честные сроки и бюджет - без скрытых платежей и бесконечных доработок.<br><br><br>
+                    Хотите приложение, которое выделит вас на рынке? Давайте обсуим ваш проект!</p>
+                </div>
+                <div class="fixed-button-wrapper" id="fixbtn">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn" id="fixxbtn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d-p">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio1" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>I AM OK. <br>
+                        Фитнесс-студия <br>
+                        для женщин</h1>
+                    <h2>Фирменный стиль</h2>
+                    <img src="images/I%20AM%20OK/work1.jpg" class="avatar-img" alt="Работа 1">
+                    <p>Концепция логотипа строится
+                    на основе философии тренировок,
+                    направленных на оздоровление,
+                    на нормализацию, на состояние,
+                    когда женщина может сказать
+                    "я в порядке!".</p>
+                    <img src="images/I%20AM%20OK/work1.1.jpg" alt="1 фото"/>
+                    <img src="images/I%20AM%20OK/work1.2.jpg" alt="2 фото"/>
+                    <p class="p-m">Шрифт в логотипе был отрисован
+                    с нуля. "Изюминкой" логотипа стала
+                    буква "О", которая построена
+                    на основе самой литеры
+                    с добавлением женского символа
+                    и гантели.</p>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio2" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>БОФФ <br>
+                    Интернет-магазин обуви <br>
+                    и комплектующих</h1>
+                    <h2>Интернет-магазин</h2>
+                    <img src="images/БОФФ/work1.jpg" class="avatar-img" alt="Работа 1"/>
+                    <p>Интернет-магазин производителя
+                    обуви и комплектующих,
+                    занимающего лидирующую позицию
+                    на рынке в регионе.</p>
+                    <img src="images/БОФФ/work1.1.jpg" alt="1 фото"/>
+                    <img src="images/БОФФ/work1.2.jpg" alt="2 фото"/>
+                    <p>Полноценный интернет-магазин.
+                    Бюджет позволил разработать
+                    адаптивные варианты для разных
+                    разрешений.</p>
+                    <img src="images/БОФФ/work1.3.jpg" alt="3 фото"/>
+                    <p>Коротко о дизайне - простой,
+                    минималистичный и строгий.</p>
+                    <img src="images/БОФФ/work1.4.jpg" alt="4 фото"/>
+                    <img src="images/БОФФ/work1.5.jpg" alt="5 фото"/>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio3" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>ДимПоиск. <br>
+                    Карты и навигация</h1>
+                    <h2>Приложение и фирменный стиль</h2>
+                    <img src="images/ДимПоиск/work1.jpg" class="avatar-img" alt="Работа 1"/>
+                    <p>Ищет всё по городу! ДимПоиск -
+                    это как Яндекс.Карты, 2ГИС и т.д.</p>
+                    <img src="images/ДимПоиск/work1.1.jpg" class="custom-img" alt="1 фото"/>
+                    <img src="images/ДимПоиск/work1.2.jpg" class="custom-img" alt="2 фото"/>
+                    <p>По данному проекту была проделана
+                    огромная работа - начиная
+                    от логотипа заканчивая дизайном
+                    превью приложения для магазина
+                    приложений. Работа длится
+                    уже давно. Периодически
+                    выполняются обновления. Количество
+                    задач ну просто огромное.</p>
+                    <img src="images/ДимПоиск/work1.3.jpg" class="custom-img" alt="3 фото"/>
+                    <p>Были так же разработаны баннера
+                    и макеты наклеек для рекламы
+                    на общественном транспорте,
+                    календари, дизайн навигатора
+                    в тёмной теме и т.д.</p>
+                    <img src="images/ДимПоиск/work1.4.jpg" class="custom-img" alt="4 фото"/>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio4" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>DERMAVI <br>
+                        Интернет-магазин <br>
+                        уходовой косметики</h1>
+                    <h2>Интернет-магазин</h2>
+                    <img src="images/DERMAVI/work1.jpg" class="avatar-img" alt="Работа 1">
+                    <p>Поступил запрос нарисовать простой,
+                    стильный, минималистичный сайт
+                    в соответствии с фирменным стилем.</p>
+                    <img src="images/DERMAVI/work1.1.jpg" alt="1 фото"/>
+                    <img src="images/DERMAVI/work1.2.jpg" alt="2 фото"/>
+                    <p>В самом начале работ было замечено,
+                    что брендбук не включает раздел,
+                    посвящённый электронным носителям
+                    стиля (в нашем случае - веб-сайт).
+                    В связи с этим были внесены
+                    корректировки и дополнения.</p>
+                    <img src="images/DERMAVI/work1.3.jpg" alt="3 фото"/>
+                    <img src="images/DERMAVI/work1.4.jpg" alt="4 фото"/>
+                    <img src="images/DERMAVI/work1.5.jpg" alt="5 фото"/>
+                    <img src="images/DERMAVI/work1.6.jpg" alt="6 фото"/>
+                    <img src="images/DERMAVI/work1.7.jpg" alt="7 фото"/>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio5" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>ДАГПЕЧАТЬ. <br>
+                    Разработка логотипа <br>
+                    и дизайна сайта</h1>
+                    <h2>Фирменный стиль и сайт</h2>
+                    <img src="images/ДАГПЕЧАТЬ/work1.jpg" class="avatar-img" alt="Работа 1">
+                    <p>Концепция логотипа строится
+                    на метафоре загнутого уголка
+                    страницы.</p>
+                    <img src="images/ДАГПЕЧАТЬ/work1.1.jpg" alt="1 фото"/>
+                    <img src="images/ДАГПЕЧАТЬ/work1.2.jpg" alt="2 фото"/>
+                    <p>Некоторые макеты сайта, пошаговый
+                    процесс работы над логотипом
+                    и варианты, предложенные заказчику.</p>
+                    <img src="images/ДАГПЕЧАТЬ/work1.3.jpg" alt="3 фото"/>
+                    <img src="images/ДАГПЕЧАТЬ/work1.4.jpg" alt="4 фото"/>
+                    <img src="images/ДАГПЕЧАТЬ/work1.5.jpg" alt="5 фото"/>
+                    <img src="images/ДАГПЕЧАТЬ/work1.6.jpg" alt="6 фото"/>
+                    <img src="images/ДАГПЕЧАТЬ/work1.7.jpg" alt="7 фото"/>
+                    <img src="images/ДАГПЕЧАТЬ/work1.8.jpg" alt="8 фото"/>
+                    <img src="images/ДАГПЕЧАТЬ/work1.9.jpg" alt="9 фото"/>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio6" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>EACH DRINKS. <br>
+                    Дизайн этикетки</h1>
+                    <h2>Фирменный стиль</h2>
+                    <img src="images/EACH%20DRINKS/work1.jpg" class="avatar-img" alt="Работа 1">
+                    <p>Минималистичный дизайн этикетки
+                    для напитка Virgin Chardonnay (non-
+                    alcoholic) бренда Each Drinks.</p>
+                    <img src="images/EACH%20DRINKS/work1.1.png" class="vertical-img" alt="1 фото"/>
+                    <p>В качестве оформления нарисован
+                    и использован в дизайне силуэт
+                    горы Шалбуздаг.</p>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio7" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>Каспий Медикал. <br>
+                    Интернет-каталог <br>
+                    мед. оборудования</h1>
+                    <h2>Интернет-каталог</h2>
+                    <img src="images/Каспий%20Медикал/work1.jpg" class="avatar-img" alt="Работа 1">
+                    <p>В целом проект стандартный.
+                    Все как полагается - главная, каталог,
+                    список товаров, страница товара,
+                    корзина... Дизайн простой, чистый.</p>
+                    <img src="images/Каспий%20Медикал/work1.1.jpg" alt="1 фото"/>
+                    <img src="images/Каспий%20Медикал/work1.2.jpg" alt="2 фото"/>
+                    <img src="images/Каспий%20Медикал/work1.3.jpg" alt="3 фото"/>
+                    <img src="images/Каспий%20Медикал/work1.4.jpg" alt="4 фото"/>
+                    <img src="images/Каспий%20Медикал/work1.5.jpg" alt="5 фото"/>
+                    <img src="images/Каспий%20Медикал/work1.6.jpg" alt="6 фото"/>
+                    <img src="images/Каспий%20Медикал/work1.7.jpg" alt="7 фото"/>
+                    <img src="images/Каспий%20Медикал/work1.8.jpg" alt="8 фото"/>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-portfolio8" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>ФАРМЛАЙН. <br>
+                    Разработка логотипа <br>
+                    и лендинга для сети <br>
+                    аптек</h1>
+                    <h2>Фирменный стиль и лендинг</h2>
+                    <img src="images/ФАРМЛАЙН/work1.jpg" class="avatar-img" alt="Работа 1">
+                    <p>В этом проекте были и точно
+                    поставленное ТЗ, и творческая
+                    свобода, и доверие со стороны
+                    заказчика.</p>
+                    <img src="images/ФАРМЛАЙН/work1.1.jpg" alt="1 фото"/>
+                    <img src="images/ФАРМЛАЙН/work1.2.jpg" alt="2 фото"/>
+                    <img src="images/ФАРМЛАЙН/work1.3.jpg" alt="3 фото"/>
+                    <img src="images/ФАРМЛАЙН/work1.4.jpg" alt="4 фото"/>
+                    <p>По итогу логотип и лендинг были
+                    утверждены без правок (разве
+                    что мелкие, вроде, текста и замены
+                    картинки).</p>
+                    <img src="images/ФАРМЛАЙН/work1.5.jpg" alt="5 фото"/>
+                    <img src="images/ФАРМЛАЙН/work1.6.jpg" alt="6 фото"/>
+                    <p>Также стоит отметить, что в процессе
+                    работы были использованы
+                    возможности нейронок, которые
+                    временами ну просто очень упрощают
+                    работу по поиску графического
+                    материала.</p>
+                    <img src="images/ФАРМЛАЙН/work1.7.jpg" alt="7 фото"/>
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+        </div>
+         <div id="popup-portfolio9" class="popup popup-portfolio">
+            <div class="popup-content">
+                <img src="images/delete.svg" alt="Закрыть" class="close-popup"/>
+                <div class="popup-inner">
+                    <h1>ЮПИТЕР. <br>
+                        Разработка логотипа</h1>
+                    <h2>Разработка логотипа</h2>
+                    <img src="images/ЮПИТЕР/work1.jpg" alt="1 фото">
+                    <p>Разработка логотипа для торговой
+                    компании, которая занимается
+                    доставкой продуктов по магазинам.</p>
+                    <img src="images/ЮПИТЕР/work1.1.jpg" alt="2 фото"/>
+                    <img src="images/ЮПИТЕР/work1.2.png" alt="3 фото"/>
+                    <img src="images/ЮПИТЕР/work1.3.jpg" alt="4 фото"/>
+                    <p>Процесс работы - черновые наброски
+                    вариантов логотипа.</p>
+                    <img src="images/ЮПИТЕР/work1.4.jpg" alt="5 фото"/>
+                    <img src="images/ЮПИТЕР/work1.5.png" class="avatar-img" alt="Работа 1">
+                    <button class="next-project-btn">Смотреть следующий проект</button>
+                </div>
+                <div class="fixed-button-wrapper"  id="fixbtn2">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn">Написать в telegram</a>
+                </div>
+                <div class="fixed-button-wrapper-d">
+                    <a href="https://t.me/yakor_contact" target="_blank" class="popup-btn-desktop">Написать в telegram</a>
+                </div>
+            </div>
+    <script>
+        function setFullHeight() {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+
+        setFullHeight();
+
+        window.addEventListener('resize', setFullHeight);
+    </script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const showMoreBtn = document.querySelector(".show-more");
+
+    showMoreBtn.addEventListener("click", function () {
+      const hiddenItems = document.querySelectorAll(".portfolio-item.hidden");
+      const itemsToShow = 3;
+
+      for (let i = 0; i < itemsToShow && i < hiddenItems.length; i++) {
+        hiddenItems[i].classList.remove("hidden");
+      }
+
+      if (document.querySelectorAll(".portfolio-item.hidden").length === 0) {
+        showMoreBtn.style.display = "none";
+      }
+    });
+  });
+</script>
+    <script src="mobile.js"></script>
+</body>
+</html>
